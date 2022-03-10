@@ -13,4 +13,4 @@ Finally, go back to the first tab of pattrsave-hub, turn on the "arm record" tog
 
 ## How it works
 
-To save `N` parameters, pattrsave first instantiates a Jitter matrix with `N` columns and a large number of rows. While recording, once every "tick" (a configurably small unit of time), it writes the state of the associated pattrs to a row of the matrix. At tick 1, the state of each pattr is stored in row 1, and so on. To play back the recording, pattrsave simply retrieves the state of each row of the matrix sequentially.
+To save N parameters, pattrsave first instantiates a Jitter matrix with N columns and a large number of rows. While recording, once every "tick" (a configurably small unit of time), it writes the state of the associated pattrs to a row of the matrix. At tick 1, the state of each pattr is stored in row 1, and so on. To play back the recording, pattrsave simply retrieves the state of each row of the matrix sequentially.
