@@ -126,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.0, 22.0, 253.0, 306.0 ],
+					"patching_rect" : [ 506.0, 22.0, 259.0, 306.0 ],
 					"text" : "Demo:\n\n1. Turn on the \"arm record\" toggle.\n\n2. Turn on the \"play\" toggle and change the number boxes below.\n\n3. Turn the \"play\" toggle off and on again. You will see the number boxes change in the way you recorded them.\n\nIf you keep \"arm record\" on, you can record other number boxes during playback, on top of your previous recording - like an overdub. When you play back your recording again, the number boxes will change simultaneously.\n\nIf \"arm record and overwrite\" is on during playback, your old recording will be overwritten with your new recording.\n"
 				}
 
@@ -190,7 +190,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 842.0, 569.0 ],
+						"rect" : [ 41.0, 110.0, 842.0, 569.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -970,13 +970,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.333333611488342, 369.333333134651184, 94.0, 21.0 ],
+									"patching_rect" : [ 18.333333611488342, 369.333333134651184, 68.0, 21.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "lib.pattrs",
+										"filename" : "pattrs",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js lib.pattrs"
+									"text" : "js pattrs"
 								}
 
 							}
@@ -2003,13 +2003,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "lib.pattrs.js",
-				"bootpath" : "~/Dropbox/Music/prod/libs/maxlib/utilities/accountant",
-				"patcherrelativepath" : "../../../Dropbox/Music/prod/libs/maxlib/utilities/accountant",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pattr_f.maxpat",
 				"bootpath" : "~/Programming/GitHub/pattrsave",
 				"patcherrelativepath" : ".",
@@ -2021,6 +2014,13 @@
 				"bootpath" : "~/Programming/GitHub/pattrsave",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pattrs.js",
+				"bootpath" : "~/Programming/GitHub/pattrsave",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
